@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>聯絡我們</title>
+		<link rel="stylesheet" type="text/css" href="common.css" />
+		<link rel="stylesheet" type="text/css" href="ColumnSplit.css">
+	</head>
+	<body>
+		<header class="ColumnSplit_container">
+			<img id="header_title_image" src="photo/slider-02.png" />
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">訊息公告</a></li>
+					<li><a href="member.html">系所成員</a></li>
+					<li><a href="introduce.html">系所介紹</a></li>
+					<li><a href="legal.html">系所法規</a></li>
+					<li><a href="enterence.html">入學資訊</a></li>
+					<li><a href="contact.html">教室借用</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="ColumnSplit_container">
+			<center><h1>教室借用</h1></center>
+
+			<form action="school-2.php" method="post">
+			        <center><table>
+			          <tr bgcolor="#cccccc">
+			            <td width="200"></td>
+			            <td width="250"></td>
+			          </tr>
+
+			          <tr>
+			            <td align="center">學號</td>
+			            <td align="center"><input type="text" name="stdnum" size="20" maxlength="20" /></td>
+			          </tr>
+
+			          <tr>
+			            <td align="center">姓名</td>
+			            <td align="center"><input type="text" name="stdname" size="20" maxlength="20" /></td>
+			          </tr>
+
+			          <tr>
+			            <td align="center">系級</td>
+			            <td align="center"><input type="text" name="department" size="20" maxlength="20" /></td>
+			          </tr> 
+
+			          <tr>
+			            <td align="center">借用日期</td>
+			            <td align="center"><input type="text" name="stddate" size="20" maxlength="20" /></td>
+			          </tr>
+
+			          <tr>
+			            <td align="center">借用時間</td>
+			            <td align="center"><input type="text" name="stdtime" size="20" maxlength="20" /></td>
+			          </tr>
+
+			          <tr>
+			            <td align="center">借用教室</td>
+			            <td align="center"><input type="text" name="classroom" size="20" maxlength="20" /></td>
+			          </tr>
+			    
+
+			        </table></center>
+			          <p><center><input type="submit" name="button" id="button" value="送出"  ><button type="button" onclick="window.open('school-2.php', '_self')">查看</button></center></p>
+			      </form>
+		</section>
+
+		<footer>
+			國立臺南大學 資訊工程學系NUTNCSIE 2021 著作權所有<br />
+			地址：台南市中西區樹林街二段33號<br />
+			電話：(06)2606123 轉 7701、7702  傳真：(06)2606125<br /></p>
+		</footer>
+
+	</body>
+</html>

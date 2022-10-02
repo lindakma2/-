@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.index_announce_table
+{
+	width: 720px;
+}
+
+.index_announce_table th
+{
+	background-color: #A5A58D;
+	padding: 10px 50px;
+}
+
+.index_announce_table tr
+{
+	padding: 10px;
+}
+
+.index_announce_table td
+{
+	border-bottom: 2px solid #A5A58D;
+	padding: 10px 25px;	
+}
